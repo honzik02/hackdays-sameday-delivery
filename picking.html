@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picking Orders</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .picking-gif {
+      max-width: 90vw;
+      max-height: 90vh;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    }
+    .next-btn {
+      position: fixed;
+      right: 40px;
+      bottom: 40px;
+      background: #ff6600;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 18px 36px;
+      font-size: 1.1em;
+      font-weight: 500;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: background 0.2s;
+      z-index: 100;
+    }
+    .next-btn:hover {
+      background: #e65c00;
+    }
+  </style>
+</head>
+<body>
+  <img src="picking.gif" alt="Picking Orders" class="picking-gif">
+  <button class="next-btn" onclick="window.location.href='driver.html'">Submit orders to driver's app</button>
+</body>
+</html> 
