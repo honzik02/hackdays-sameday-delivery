@@ -1,0 +1,18 @@
+{
+  "name": "hackdays-samedaydelivery-slots",
+  "version": "1.0.0",
+  "description": "Same day delivery slots demo application",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build step required for static HTML' && exit 0",
+    "start": "echo 'Static HTML project - open index.html in browser'",
+    "dev": "echo 'Static HTML project - open index.html in browser'"
+  },
+  "keywords": [
+    "delivery",
+    "html",
+    "static"
+  ],
+  "author": "",
+  "license": "ISC"
+}
