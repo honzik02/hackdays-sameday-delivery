@@ -4,7 +4,7 @@
   "description": "Same day delivery slots demo application",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'No build step required for static HTML' && exit 0",
+    "build": "echo 'Static HTML site ready for deployment'",
     "start": "echo 'Static HTML project - open index.html in browser'",
     "dev": "echo 'Static HTML project - open index.html in browser'"
   },
